@@ -4,6 +4,7 @@ var express = require('express');
 var fs = require('fs');
 var app = express();
 
+app.use(express.favicon(__dirname + '/favicon.ico'));
 app.use(express.logger());
 
 //read index.html and store to buffer
