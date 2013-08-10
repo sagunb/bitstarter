@@ -3,7 +3,7 @@
   <head>
 	<link type="image/x-icon" rel="shortcut icon" href="/favicon.ico">
     <meta charset="utf-8">
-    <title>My First Bitstarter</title>
+    <title>Auto-Light</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -168,8 +168,9 @@
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
+		<div class="row-fluid">
           <div class="span8 offset2">
-            <div class="statistics">
+            <div class="row-fluid statistics">
               <div class="span4">
                 <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
@@ -190,25 +191,32 @@
               </div>
             </div>
           </div>
+		  <div class="row-fluid">
           <div class="span10 offset1">
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 10%;"></div>
-	      <div class="bar bar-warning" style="width: 90%;">90% to go!</div>
+				<div class="bar bar-success" style="width: 10%;"></div>
+				<div class="bar bar-warning" style="width: 90%;">90% to go!</div>
             </div>
           </div>
+		  </div>
+		  <div class="row-fluid">
           <div class="span6 offset3 order">
             <!-- Standard Bootstrap button. -->
             <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
             <button class="btn btn-success btn-large">Preorder</button>
           </div>
+		  </div>
+		  <div class="row-fluid">
           <div class="span8 offset2 social">
             <!-- Social buttons are not included in default Bootstrap. -->
             <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
+		  </div>
+		</div>  
         </div>
       </div>
 
@@ -222,7 +230,7 @@
         </div>
         <div class="span5 copy">
           <p class="main">
-		With the advent of mobile technology on the rise, we feel that
+		With the rise of mobile technology, we feel that
 		it should do more than just checking facebook and twitter. Imagine
 		crawling into bed before turning off the lights, reading your
 		favourite book, and then going to sleep without ever having to
@@ -234,8 +242,8 @@
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p class="main">
-            	Auto-light features fully functional wifi and bluetooth support.
-		Simply activate bluetooth or wifi on your android/apple powered device
+            	Auto-light features fully functional wifi support.
+		Simply activate wifi on your android/apple powered device
 		and with the click of a button the lights will be turned off before you
 		know it! No more stumbling in the dark, or fumbling with the bed sheet
 		before going to bed. Simply tuck yourself into bed and let Auto-light do
@@ -258,12 +266,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
+                    When is auto-light expected to be released?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Frequently Asked Question.
+                    Auto-light is currently a concept project. To make it a reality show us your support by spreading the word.
                   </div>
                 </div>
               </div>
@@ -271,12 +279,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
+                    I have a blackberry, will Auto-light still work on my phone?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    A question which is commonly asked by users.
+                    Yes! While there might not be a native app for blackberry users, Auto-light will be fully controllable by any browser, including the browser in your blackberry.
                   </div>
                 </div>
               </div>
